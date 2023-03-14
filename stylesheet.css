@@ -1,0 +1,85 @@
+* {
+    margin: 1rem; 
+    padding: 0;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* Background Color */
+body {
+    font-size: 18px;
+    font-weight: normal;
+    background-color: rgb(255, 243, 217);
+    background-repeat: repeat;
+    background-image: none;
+    /* controls spacing between text, images, etc */
+    line-height: 1.6em;
+}
+
+
+/* Name Header */
+.Header-textbox h1 {
+    color:rgb(146, 41, 23);
+    padding-top: 4%;
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 5px;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Course Information Header */
+.Header-textbox h3 {
+    color:rgb(146, 41, 23);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 5px;
+    text-transform: uppercase;
+    margin-left: 3rem;
+
+}
+/* Navigational Links */
+.Links {
+    height: 50%;
+    width: 100%;
+    margin-top: 3em;
+    background-color: rgb(255, 243, 217);
+}
+
+li {
+    font-size: 20px;
+    text-align: left;
+    display: list-item;
+    list-style-type: square;
+}
+
+
+/* Unvisited Link */
+a:link {
+    color: rgb(224, 179, 120)
+}
+
+/* Visited Link */
+a:visited {
+    color: rgb(223, 116, 84)
+}
+
+/* Mouse Effect Over Link */
+a:hover {
+    color: rgb(240, 180, 69)
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    color: rgb(26, 23, 23)
+}
