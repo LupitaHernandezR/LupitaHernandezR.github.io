@@ -1,5 +1,5 @@
 * {
-    margin: 1rem; 
+    margin: 0; 
     padding: 0;
 }
 
@@ -19,45 +19,76 @@ body {
     line-height: 1.6em;
 }
 
+#wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 3%;
+    position: relative;
+}
+
+.blackcat {
+    position: absolute;
+    width: 20%;
+    top: 100%;
+    left: 10%;
+    z-index: -1;
+    animation: cat-animation ease-in-out 5s infinite;
+}
+@keyframes cat-animation{
+    0% { left: 0%}
+    50% { left:80%;}
+    100% {left: 0%}
+}
 
 /* Name Header */
-.Header-textbox h1 {
+
+header {
+    width: 100%;
+}
+
+header h1 {
     color:rgb(146, 41, 23);
     padding-top: 4%;
     font-size: 2.5em;
     font-family: 'DM Serif Display', serif;
     letter-spacing: 5px;
-    line-height: 2em;
+    line-height: 1.5em;
     text-transform: uppercase;
     text-decoration: underline;
-    margin: 3rem;
     margin-bottom: 1rem;
 }
 
 
 /* Course Information Header */
-.Header-textbox h3 {
+header h3 {
     color:rgb(146, 41, 23);
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 700;
-    line-height: 5px;
     text-transform: uppercase;
-    margin-left: 3rem;
-
 }
 /* Navigational Links */
-.Links {
+.links {
     height: 50%;
     width: 100%;
     margin-top: 3em;
     background-color: rgb(255, 243, 217);
 }
 
-li {
+nav {
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+nav li {
     font-size: 20px;
     text-align: left;
-    display: list-item;
-    list-style-type: square;
+    margin-right: 3%;
+    list-style-type: none;
+    display: inline;
+}
+
+nav li a {
+    text-decoration: none;
 }
 
 
@@ -76,10 +107,40 @@ a:hover {
     color: rgb(240, 180, 69)
 }
 
+.bio {
+    width: 100%;
+}
+
+.bio img {
+    margin: 0% 2% 2% 0%;
+}
+
 
 
 /* Footer */
 footer {
     text-align: center;
-    color: rgb(26, 23, 23)
+    color: rgb(26, 23, 23);
+    width: 100%;
+    margin: 5%;
+    padding: 1%;
+    clear: left;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) { 
+    .columns {
+        float: none;
+    }
+    .col-4, .col-8 {
+        width: 100%;
+    }
+
 }
