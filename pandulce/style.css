@@ -30,7 +30,7 @@ body {
     color:rgb(255, 236, 184)
 }
 
-/* pan Section */
+/* Pan Section */
 .container {
     /* height: ; */
     background-color: lightblue;
@@ -113,6 +113,11 @@ section {
     animation-delay: -1.5s;
 
 }
+
+
+
+
+/* Section Coloring */
 .churro{
     background-color: #FF698D;
 }
@@ -125,6 +130,8 @@ section {
 .churro p{
     color: #70FFF6;
 }
+
+
 
 .galleta {
     background-color: #E9B121;
@@ -139,6 +146,114 @@ section {
     color: #644AFF;
 }
 
+
+
+.besos {
+    background-color: #644AFF;
+}
+.besos h2{
+    color: #FF9E45;
+}
+.besos h3{
+    color: #70FFF6;
+}
+.besos p{
+    color: #70FFF6;
+}
+
+
+
+.empanada {
+    background-color: #FF698D;
+}
+.empanada h2{
+    color: #F9AEFF;
+}
+.empanada h3{
+    color: #70FFF6;
+}
+.empanada p{
+    color: #70FFF6;
+}
+
+
+
+.marranito {
+    background-color: #E9B121;
+}
+.marranito h2{
+    color: #FF5F72;
+}
+.marranito h3{
+    color: #644AFF;
+}
+.marranito p{
+    color: #644AFF;
+}
+
+
+
+.cuerno {
+    background-color: #644AFF;
+}
+.cuerno h2{
+    color: #FF9E45;
+}
+.cuerno h3{
+    color: #70FFF6;
+}
+.cuerno p{
+    color: #70FFF6;
+}
+
+
+
+.mantecada{
+    background-color: #FF698D;
+}
+.mantecada h2{
+    color: #F9AEFF;
+}
+.mantecada h3{
+    color: #70FFF6;
+}
+.mantecada p{
+    color: #70FFF6;
+}
+
+
+
+.ojo-de-buey {
+    background-color: #E9B121;
+}
+.ojo-de-buey h2{
+    color: #FF5F72;
+}
+.ojo-de-buey h3{
+    color: #644AFF;
+}
+.ojo-de-buey p{
+    color: #644AFF;
+}
+
+
+
+
+.palmera {
+    background-color: #644AFF;
+}
+.palmera h2{
+    color: #FF9E45;
+}
+.palmera h3{
+    color: #70FFF6;
+}
+.palmera p{
+    color: #70FFF6;
+}
+
+
+/* Stuff Stuff Stuff */
 @media screen and (max-width: 800px) {
     .title{
         background-image: url(img/titlerotated.png);
